@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#col1{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100%;
+    width: 50%;
+    margin: 7vh;
+}
+
+#clock img{
+    width: 10vh;
+    height: 10vh;
+    margin-bottom: 6vh;
+}
+
+#para h1{
+    font-size: 8vh;
+    margin-left: 4vh;
+    margin-bottom: 4vh;
+}
+
+#p p{
+    width: 91%;
+    font-size: 3vh;
+    margin-left: 4vh;
+    /* margin-bottom: 2.9vh; */
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 9vh;
+    font-size: 3.5vh;
+    color: white;
+    gap: 5vw;
+}
+
+#buttons #order{
+    background-color: black;
+    height: 7vh;
+    width: 30vh;
+    text-align: center;
+    align-items: start;
+    justify-content: center;
+    border-radius: 20px;
+    line-height: 43px;
+    /* margin-top: 1vw; */
+}
+
+#buttons #explore{
+    background-color: rgb(255, 255, 255);
+    height: 7vh;
+    color:rgb(0, 0, 0);
+    width: 30vh;
+    text-align: center;
+    align-items: start;
+    justify-content: center;
+    border-radius: 20px;
+    line-height: 43px;
+    border: solid black;
+    border-width: 1.2px ;
+    /* margin-top: 1vw; */
+}
+
+#box{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: 90%;
+    margin-left: 4vh;
+    padding: 3vh;
+    border: solid black;
+    border-width: 1.2px ;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+#icon{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /* padding: 1vh; */
+}
+
+
+#col2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100%;
+    width: 50%;
+    margin: 7vh;
+}
+
+
+#col2 #image img{
+    align-content: center;
+    position: relative;
+    margin: 20%;
+    height: 70vh;
+    width: 60vh;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+#box2{
+    position: absolute;
+    height: 50vh;
+    width: 39vh;
+    /* background-color: brown; */
+    margin: 21%;
+    border: solid black;
+    border-width: 0.4vh;
+    border-radius: 20px;
+}
+
+#starbox{
+    position: absolute;
+    height: 65vh;
+    width: 55vh;
+    /* background-color: brown; */
+    margin: 4%;
+    border: solid black;
+    border-width: 0.4vh;
+    border-radius: 20px;
+}
+
+#star{
+    position: absolute;
+    scale: 9;
+    margin: 4%;
+    /* background-color: white; */
+}
+
+#star i{
+    border-width: 2vh;
+}
+#decorate1{
+    position: absolute;
+    z-index: 15;
+    margin: 10%;
+    font-size: 80px;
+    font-weight: 1;
+}
+#decorate1 i{
+    position: absolute;
+    z-index: 15;
+    color: wheat;
+}
+
+#decorate2{
+    position: absolute;
+    z-index: 15;
+    margin: 30%;
+    scale: 5;
+}
+#decorate2 i{
+    position: absolute;
+    z-index: 15;
+    color: wheat;
+    margin-top: 2vh;
+}
+
+#design{
+
+    margin: 35vw;
+    margin-left: 9vh;
+    z-index: 15;
+    position: absolute;
+    height: 6vh;
+    width: 25vh;
+    background-color: rgb(104, 95, 212);
+    color: white;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 10px;
+}
+
+#design2{
+
+    margin: 12vw;
+    margin-left: 55vh;
+    z-index: 15;
+    position: absolute;
+    height: 6vh;
+    width: 30vh;
+    background-color: rgb(104, 95, 212);
+    color: white;
+    text-align: center;
+    line-height: 2.4;
+    border-radius: 10px;
+}
